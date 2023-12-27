@@ -3,7 +3,7 @@ import sqlite3
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import smtplib
-# from reportlab.pdfgen import canvas
+from reportlab.pdfgen import canvas
 from twilio.rest import Client
 import openai
 from twilio.twiml.voice_response import Gather, VoiceResponse
